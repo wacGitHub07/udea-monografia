@@ -1,0 +1,50 @@
+{
+    "general":{
+        "codigo": "codigo",
+        "precio":"precio",
+        "zona":"zona"
+    },
+    "caracteristicas":{
+        "Barrio / Sector":"barrio_sector",
+        "Tipo de pisos":"tipo_pisos",
+        "Baños familiares":"baños_familiares",
+        "Area bruta *":"area_bruta",
+        "Ciudad":"ciudad",
+        "Número de niveles":"numero_niveles",
+        "Tipo de cocina":"tipo_cocina",
+        "Parqueaderos":"parqueaderos",
+        "Otras comodidades":"otras_comodidades",
+        "Alcobas familiares":"alcobas_familiares",
+        "Estrato":"estrato",
+        "Area total":"area_total"
+    },
+    "comodidades":{
+        "Juegos infantiles":"juegos_infantiles",
+        "Balcón":"balcon",
+        "Zona de ropas":"zona_ropas",
+        "Camaras CCTV":"camaras_cctv",
+        "Cancha polideportiva":"cancha_polideportiva",
+        "Ascensor":"ascensor",
+        "Cancha Squash":"cancha_squash",
+        "Zona BBQ":"zona_bbq",
+        "Patio":"patio",
+        "Unidad cerrada / conjunto":"unidad_cerrada_conjunto",
+        "Zonas verdes":"zonas_verdes",
+        "Aire acondicionado":"aire_acondicionado",
+        "Jacuzzi":"jacuzzi",
+        "Red de Gas":"red_de_Gas",
+        "Turco":"turco",
+        "Porteria 24/7":"porteria_24_7",
+        "Sauna":"sauna",
+        "Calentador de agua":"calentador_de_agua",
+        "Terraza":"terraza",
+        "Closet de linos":"closet_de_linos",
+        "Biblioteca":"biblioteca",
+        "Parqueadero visitantes":"parqueadero_visitantes",
+        "Gimnasio":"gimnasio",
+        "Piscina":"piscina",
+        "Salon social":"salon_social",
+        "Dispositivos automatizacion":"dispositivos_automatizacion",
+        "Alarma":"alarma"
+    }
+}
