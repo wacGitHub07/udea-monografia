@@ -1,0 +1,12 @@
+Area total
+Ciudad
+Número de niveles
+Tipo de cocina
+Area bruta *
+Parqueaderos
+Tipo de pisos
+Estrato
+Baños familiares
+Otras comodidades
+Barrio / Sector
+Alcobas familiares
