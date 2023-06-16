@@ -27,6 +27,10 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.svm import SVR
 from sklearn.neural_network import MLPRegressor
 
+# Modelos Boosting
+from sklearn.ensemble import AdaBoostRegressor
+from sklearn.ensemble import GradientBoostingRegressor
+from xgboost import XGBRegressor
 
 ###################################################################
 #                  Funciones para graficar
@@ -194,6 +198,12 @@ def get_model(model:str, params:dict, seed:int) -> any:
         return SVR(**params)
     elif model == "MLPRegressor":
         return MLPRegressor(**params, random_state=seed)
+    elif model == "AdaBoostRegressor":
+        return AdaBoostRegressor(**params, random_state=seed)
+    elif model == "GradientBoostingRegressor":
+        return GradientBoostingRegressor(**params, random_state=seed)
+    elif model == "XGBRegressor":
+        return XGBRegressor(**params, random_state=seed)
     
 
 
