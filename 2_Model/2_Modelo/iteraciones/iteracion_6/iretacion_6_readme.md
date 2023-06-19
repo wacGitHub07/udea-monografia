@@ -10,7 +10,7 @@ Dado lo anterior y considerando el sesgo en la distribución de la variable prec
 
 ### Clustering
 
-Para seleccionar el rango de precios de manera óptima se implementará un algoritmo de kmeans considerando solo las variables __precio__ y __area_bruta__ (siendo esta última numérica y la que muestra mayor importancia en los analisis de correlacion). La cantidad de clusters a seleccionar será determinado calculando el coeficiente de suluetas. 
+Para seleccionar el rango de precios de manera óptima se implementará un algoritmo de kmeans considerando solo las variables __estrato__ y __area_bruta__ (siendo estas numéricas y las que muestra mayor importancia en los analisis de correlación). La cantidad de clusters a seleccionar será determinado calculando el coeficiente de suluetas. 
 
 Luego de encontrar los labels de los clusters, este valor será incluido en una nueva variable de la base de entrenamiento para luego ejecutar los algoritmos que buscan predecir los precios de arriendos.
 

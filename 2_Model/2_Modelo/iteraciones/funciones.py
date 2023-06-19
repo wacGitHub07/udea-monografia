@@ -41,17 +41,17 @@ def imprimir_dimensiones(data: pd.DataFrame):
 
 # Configurar estilo de gráficos
 sns.set_style({'font.family':'serif', 'font.serif':['Times New Roman']})
-def graficar_distribucion_histograma(data: pd.DataFrame, column: str) ->None:
+def graficar_distribucion_histograma(data: pd.DataFrame, column: str, title: str) ->None:
     plt.figure(figsize=(12,4))
     plt.subplot(1,2,1)
-    plt.title('Distribución de precios de arriendos')
+    plt.title(title)
     sns.histplot(data[column])
     plt.show()
 
-def graficar_distribucion_boxplot(data: pd.DataFrame, column: str) -> None:
+def graficar_distribucion_boxplot(data: pd.DataFrame, column: str, title: str) -> None:
     plt.figure(figsize=(12,4))
     plt.subplot(1,2,1)
-    plt.title('Distribución de precios de arriendos')
+    plt.title(title)
     sns.boxplot(data = data, y = column)
     plt.show()
 

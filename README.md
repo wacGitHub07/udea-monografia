@@ -34,13 +34,13 @@ El contenido de este módulo se divide en lo siguiente:
         - iteracion_2: Tratamiento general a los datos: distribución, atípicos, correlación y re ejecución de modelo línea base en busca de mejorar las métricas
         - iteración_3: Ejecución de modelos de regresión tradicionales: Regresión Lineal, Regresión Lasso, Árbol de Decisión, Bosques Aleatorios y Maquinas de Soporte Vectorial
         - iteracion_4: Ejecución de modelos de boosting: Ada Boost, Gradient Boosting, XGBoost
-        - iteracion_5: Ejecución de sub iteraciones que corresponden al análisis por zonas
+        - iteracion_5: Ejecución de sub iteraciones por zonas
           - iteracion 5_1: Sub iteración eliminando zona minoritaria (San Antonio de Prado)
           - iteracion 5_2: Sub iteración eliminando (San Antonio de Prado y centro)
           - iteracion 5_3: Sub iteración eliminando (San Antonio de Prado, centro y belén)
           - iteracion 5_4: Ejecución sobre viviendas con precio inferior o igual a __6000000COP__
         - iteracion 6: Implementación de clustering y entrenamiento de modelos de regresión
-        - iteracion 7: Construcción de modelo final
+        - iteracion 7: Construcción de modelo final, validación cruzada y evaluación de efectividad por zonas
 
 Nota Importantes: 
 - Algunas iteraciones contienen un archivo readme para contextualizar al lector a cerca del proceso ejecutado
