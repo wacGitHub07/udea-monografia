@@ -244,5 +244,5 @@ def ejecutar_modelo(model :str,
     resultados = resultados.drop(columns = 'params')
     resultados["diff"] = abs(resultados['R2_train'] - resultados['R2_test'])
     resultados = resultados.sort_values('diff')
-    resultados = resultados[resultados['diff'] <= 0.05] # Control de overfitting
+    #resultados = resultados[resultados['diff'] <= 0.06] # Control de overfitting
     resultados.to_csv(f'{filename}.csv', index=False)
